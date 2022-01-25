@@ -1,10 +1,10 @@
 fun main() {
-    var firstName : String = "Rizky"
-    var lastName : String = "Rafi"
-    var fullName : String = "Rizky Faisal Rafi"
+    val firstName : String = "Rizky"
+    val lastName : String = "Rafi"
+    val fullName : String = "Rizky Faisal Rafi"
     println(fullName)
     // Gunakan """ untuk String lebih dari 1 Baris
-    var address : String = """
+    val address : String = """
         Street Not Yet Done,
         Province Subang,
         Country Indonesia

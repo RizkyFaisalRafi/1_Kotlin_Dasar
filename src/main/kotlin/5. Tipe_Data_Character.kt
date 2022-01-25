@@ -1,11 +1,11 @@
 fun main() {
     println("TEST")
-    var char1 : Char = 'F'
-    var char2 : Char = 'A'
-    var char3 : Char = 'I'
-    var char4 : Char = 'S'
-    var char5 : Char = 'A'
-    var char6 : Char = 'L'
+    val char1 : Char = 'F'
+    val char2 : Char = 'A'
+    val char3 : Char = 'I'
+    val char4 : Char = 'S'
+    val char5 : Char = 'A'
+    val char6 : Char = 'L'
 
     print(char1)
     print(char2)

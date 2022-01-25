@@ -31,6 +31,6 @@ fun main() {
     var float : Float = number.toFloat() // Konversi Int ke Float
     var double : Double = number.toDouble() // Konversi Int ke Double
     println("\nConversion")
-    println(double)
+    println(float)
 
 }
