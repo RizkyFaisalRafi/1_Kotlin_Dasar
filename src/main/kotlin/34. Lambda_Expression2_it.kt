@@ -4,8 +4,8 @@ fun main() {
     // Secara default apabila tidak mendeklarasikan parameternya, kita bisa mengakses ke dalam body lambda
     // menggunakan it. it hanya bisa jalan jika parameternya hanya 1.
     val lambdaName: (String) -> String = {
-        it.toUpperCase()
         "Hello $it"
+        it.toUpperCase()
     }
 
     // Mengeksekusi Lambda Expression
