@@ -7,8 +7,9 @@ fun main() {
     * Membuat array dengan jumlah data sedikit mungkin mudah, tapi bagaimana jika data angka yang berurutannya sangat banyak, misal dari 1 sampai 1000
     * Kotlin mendukung tipe data range, yang digunakan untuk kebutuhan seperti ini
     * Cara membuat range di Kotlin sangat mudah cukup menggunakan tanda .. (titik dua kali) :
-    * 0..10     : Range dari 0 sampai 10
-    * 0..100    : Range dari 0 sampai 100
+    * 1..10             : Range dari 1 sampai 10
+    * 1..100            : Range dari 1 sampai 100
+    * 1.rangeTo(100)    : Range dari 1 sampai 100
     * Range tidak seperti array dimana dia tidak bisa mengakses :
     * range.get = Tidak Ada di Range
     * range[0] = Tidak Ada di Range
