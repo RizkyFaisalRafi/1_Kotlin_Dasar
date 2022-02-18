@@ -53,6 +53,4 @@ fun main() {
     println(range3.last)
     println(range3.step)
 
-
-
 }
