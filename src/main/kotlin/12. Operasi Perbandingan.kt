@@ -1,8 +1,8 @@
 fun main() {
-    val nilai1 : Int = 100
-    val nilai2 : Int = 200
+    val nilai1: Int = 100
+    val nilai2: Int = 200
 
-    val result1 : Boolean = nilai1 < nilai2
+    val result1: Boolean = nilai1 < nilai2
     println(result1)
 
     val result2 = nilai1 > nilai2

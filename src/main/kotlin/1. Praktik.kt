@@ -1,13 +1,6 @@
 fun main() {
-    val Name: Array<String> = arrayOf("Rizky", "Faisal", "Rafi")
+    var number: Int = 120
+    var by: Byte = number.toByte() // Konversi int to byte
 
-    // [Index]
-    val rizky = Name[0]
-    val faisal = Name[1]
-    val rafi = Name[2]
-
-    println(rizky)
-    println(faisal)
-    println(rafi)
-
+    print(number)
 }

@@ -1,8 +1,8 @@
 fun main() {
     println("TEST")
 
-    var benar : Boolean = true
-    var salah : Boolean = false
+    var benar: Boolean = true
+    var salah: Boolean = false
 
     println(benar)
     println(salah)

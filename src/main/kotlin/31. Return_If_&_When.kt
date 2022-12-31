@@ -3,17 +3,18 @@ fun main() {
     // bayangkan apabila percabangannya banyak maka setiap if else if harus menggunakan return untuk mengembalikan nilai
     // ada caranya hanya pakai 1 return tetapi kebawah bawahnya udah otomatis ke return
     // Dengan cara seperti di function sayHello2
-    fun sayHello(name: String = "") : String{
-        if (name == ""){
+    fun sayHello(name: String = ""): String {
+        if (name == "") {
             return "Hello Bro"
-        }else{
+        } else {
             return "Bro $name"
         }
     }
-    fun sayHello2(name2: String = ""): String{
-        return if (name2 == ""){
+
+    fun sayHello2(name2: String = ""): String {
+        return if (name2 == "") {
             "Hello Bro"
-        }else{
+        } else {
             "Hello $name2"
         }
     }

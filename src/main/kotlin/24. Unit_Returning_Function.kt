@@ -1,14 +1,15 @@
-fun hello(name: String) :Unit{
+fun hello(name: String): Unit {
     println("Assalamualaikum $name")
 }
-fun hello2(name2: String){
+
+fun hello2(name2: String) {
     println("Assalamualaikum $name2")
 }
-fun hello3(name3: String){
-    if (name3 == null){
+
+fun hello3(name3: String) {
+    if (name3 == null) {
         println("Hello Broo!")
-    }
-    else {
+    } else {
         println("Hello $name3")
     }
 }

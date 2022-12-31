@@ -1,14 +1,15 @@
-infix fun String.to(type:String): String{
-    if(type == "UP"){
+infix fun String.to(type: String): String {
+    if (type == "UP") {
         return this.toUpperCase()
-    }else{
+    } else {
         return this.toLowerCase()
     }
 }
+
 // Sebenernya bisa "Rizky".to ("UP") tapi karena infix bisa seperti code dibawah
 fun main() {
-    val result : String = "Rizky Faisal Rafi" to "UP"
-    val result2 : String = "Hendrawan Wibowo" to "LO"
+    val result: String = "Rizky Faisal Rafi" to "UP"
+    val result2: String = "Hendrawan Wibowo" to "LO"
     println(result)
     println(result2)
 

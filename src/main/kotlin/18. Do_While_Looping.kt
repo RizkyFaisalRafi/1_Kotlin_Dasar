@@ -1,5 +1,5 @@
 fun main() {
-    var nilai= 0
+    var nilai = 0
 
     do {
         println("Nilai $nilai")

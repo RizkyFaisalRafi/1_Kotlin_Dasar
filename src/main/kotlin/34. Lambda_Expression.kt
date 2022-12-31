@@ -1,8 +1,9 @@
 // Function Biasa
-fun name2(firstName: String): String{
-    val hasil : String = "Nama Aku $firstName"
+fun name2(firstName: String): String {
+    val hasil: String = "Nama Aku $firstName"
     return hasil
 }
+
 fun main() {
     // Membuat Lambda Expression disimpan di variable
     // tidak perlu lagi gunakan kata kunci return untuk mengembalikan data karena default sudah return

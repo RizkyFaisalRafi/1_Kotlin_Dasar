@@ -14,15 +14,15 @@ fun main() {
     * */
 
     // Mutable (Bisa Diubah)
-    var firstName : String = "Rizky"
-    var lastName : String = "Rafi"
+    var firstName: String = "Rizky"
+    var lastName: String = "Rafi"
     // Mengubah Variable
     lastName = "Rizky Rafi"
     println(lastName)
 
     // Immutable (Tidak Bisa Diubah)
-    val firstName2 : String = "Rizky"
-    val lastName2 : String = "Rafi"
+    val firstName2: String = "Rizky"
+    val lastName2: String = "Rafi"
     // Akan Error jika mengubah variable karena menggunakan Immutable
     //    lastName2 = "Rizky Rafi"
     //    println(lastName2)
@@ -36,7 +36,7 @@ fun main() {
     * Untuk membuat variable bisa bernilai null, di kotlin bisa menggunakan ? (tanda tanya) setelah tipe datanya
     * Penggunaan fitur ini tidak direkomendasikan untuk dilakukan di kotlin, hanya sebagai jalan akhir jika misal mengakses kode java
     * */
-    var firstName3 : String? = "Rizky"
+    var firstName3: String? = "Rizky"
     firstName3 = null
 
     // Error karena firstName3 bisa null

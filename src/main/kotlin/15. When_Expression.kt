@@ -4,11 +4,12 @@ fun main() {
         'A' -> {
             println("Amazing")
         }
+
         'B' -> println("Good")
         'C' -> println("Not Bad")
         'D' -> println("Bad")
         'E' -> println("Try Again Next Year")
-    else -> println("Ups")
+        else -> println("Ups")
     }
 
     // When Expression Multiple Option
@@ -17,9 +18,9 @@ fun main() {
        if(nilai == "A" || nilai == "B" || nilai == "C")
     * */
     val finalExam2 = 'A'
-    when(finalExam2) {
+    when (finalExam2) {
         'A', 'B', 'C' -> println("Selamat Anda Lulus")
-    else -> {
+        else -> {
             println("Tidak Lulus")
         }
     }
@@ -36,14 +37,14 @@ fun main() {
 
     // When Expression Is = Mengecek apa tipe datanya
     val name = "Eko"
-    when(name) {
+    when (name) {
         is String -> println("Name Is String")
         !is String -> println("Name Is Not String")
     }
 
     // When Tanpa Variable
     val nilaiUjian = 95
-    when{ // Bisa langsung tanpa menyebutkan variablenya
+    when { // Bisa langsung tanpa menyebutkan variablenya
         nilaiUjian > 90 -> println("Amazing")
         nilaiUjian > 80 -> println("Good Job")
         nilaiUjian > 60 -> println("Not Bad")

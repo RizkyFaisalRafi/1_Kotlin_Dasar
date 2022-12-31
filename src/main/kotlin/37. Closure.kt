@@ -5,12 +5,12 @@ fun main() {
         counter++ // Bisa mengakses data diluar si lambda'nya
     }
 
-    val anonymousIncrement = fun(){ // Anonymous Function
+    val anonymousIncrement = fun() { // Anonymous Function
         println("Anonymous Function Increment")
         counter++
     }
 
-    fun functionBiasa(){ // function Biasa
+    fun functionBiasa() { // function Biasa
         println("Function Increment")
         counter++
     }
